@@ -1,0 +1,9 @@
+.nav-tabs .nav-link.active {
+    background-color: transparent!important;
+    border-bottom-color: var(--color-tertiary)!important;
+}
+
+.product-more-details .tab-content * {
+    background-color: transparent!important;
+    color: var(--color-text)!important;
+}

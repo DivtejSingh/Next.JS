@@ -1,0 +1,14 @@
+.h-f-c-c-promo-text {
+    max-width: 80%;
+}
+
+.h-f-c-c-label {
+    right: 10px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 59.5%, 52.5% 100%, 52.5% 100%, 0% 59.5%);
+}
+
+@media (max-width: 575px) {
+    .h-f-c-c-promo-text {
+        max-width: 86%;
+    }
+}

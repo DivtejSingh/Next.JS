@@ -1,0 +1,13 @@
+.breadcrumb li:not(:first-child)::before {
+    content: ">" !important;
+    color: #fff;
+}
+
+.breadcrumb a:hover {
+    color: var(--color-light);
+    text-decoration: underline;
+}
+
+ol.breadcrumb {
+    margin-bottom: 0;
+}

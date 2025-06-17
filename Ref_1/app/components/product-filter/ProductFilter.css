@@ -1,0 +1,8 @@
+.product-filter .btn {
+    font-size: 14px;
+}
+
+.product-filter .dropdown-menu {
+    font-size: 14px;
+    z-index: 1;
+}

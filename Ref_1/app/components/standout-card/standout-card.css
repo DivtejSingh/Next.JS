@@ -1,0 +1,20 @@
+.standout-card {
+    padding-right: 100px!important;
+}
+
+.standout-card h4 {
+    color: var(--color-primary);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+}
+
+.standout-card p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+}

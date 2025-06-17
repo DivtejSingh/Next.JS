@@ -1,0 +1,13 @@
+.h-c-c-text {
+    max-width: 80%;
+}
+
+.h-c-c-image span {
+    left: auto!important;
+}
+
+@media (max-width: 575px) {
+    .h-c-c-text {
+        max-width: 86%;
+    }
+}

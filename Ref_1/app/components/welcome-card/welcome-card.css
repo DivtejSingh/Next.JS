@@ -1,0 +1,42 @@
+.welcome-card {
+    background-color: var(--color-tertiary);
+}
+
+.welcome-card h4 {
+    color: var(--color-primary);
+    font-size: 20px;
+}
+
+.welcome-card h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 4px;
+    background-color: var(--color-theme-1);
+}
+
+.welcome-card h5 {
+    color: var(--color-primary);
+    font-size: 16px;
+}
+
+.welcome-card p a {
+    color: var(--color-primary);
+}
+
+.welcome-card p a:hover,
+.welcome-card p a:hover strong {
+    color: var(--color-text);
+}
+
+.welcome-card p + p {
+    margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+    .welcome-card h4 {
+        font-size: 16px;
+    }
+}

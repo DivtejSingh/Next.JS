@@ -1,0 +1,4 @@
+.products .swiper-scrollbar {
+    margin-top: 20px;
+    background-color: var(--color-border)!important;
+}

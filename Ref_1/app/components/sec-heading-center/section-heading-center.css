@@ -1,0 +1,14 @@
+.sec-heading-center {
+    max-width: 1000px;
+}
+
+.sec-heading-center h3 {
+    font-size: 30px;
+    color: var(--color-primary);
+}
+
+@media(max-width: 1199px) {
+    .sec-heading-center h3 {
+        font-size: 20px;
+    }
+}

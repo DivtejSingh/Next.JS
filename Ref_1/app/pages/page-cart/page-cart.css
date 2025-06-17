@@ -1,0 +1,47 @@
+.sec-cart table td {
+    color: var(--color-text);
+    vertical-align: middle;
+}
+
+.product-title a:hover {
+    text-decoration: underline;
+}
+
+.cart-details {
+    max-width: 600px;
+}
+
+.cart-details p {
+    font-size: 16px;
+}
+
+.cart-details p:last-of-type {
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.sec-cart .table {
+    min-width: 800px;
+}
+
+@media (max-width: 767px) {
+    .sec-cart img {
+        width: 80px;
+        height: 80px;
+        min-width: 80px;
+        object-fit: cover;
+    }
+
+    .sec-cart .table {
+        font-size: 13px;
+    }
+
+    .cart-details p {
+        font-size: 13px;
+    }
+
+    .sec-cart table td.product-title a {
+        font-size: 13px !important;
+    }
+}

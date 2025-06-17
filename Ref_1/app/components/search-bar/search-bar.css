@@ -1,0 +1,51 @@
+.search-bar input.form-control {
+    width: 86%;
+    height: 40px;
+    box-shadow: none;
+}
+
+.search-bar button.btn.btn-main {
+    width: 40px;
+    height: 40px;
+}
+
+.search-bar button svg {
+    width: 16px;
+}
+
+.search-dropdown {
+    top: calc(100% + 2px);
+    background-color: var(--color-light);
+    border: 1px solid var(--color-border);
+    width: 86%;
+    font-size: 14px;
+    left: calc(7% - 20px);
+    max-width: 400px;
+}
+
+.search-dropdown-item {
+    font-size: 14px!important;
+}
+
+.search-dropdown a:last-child {
+    font-size: 14px;
+}
+
+.search-dropdown a:nth-last-child(2) {
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 5px;
+}
+
+.search-dropdown-item:hover {
+    background-color: var(--color-tertiary);
+}
+
+.search-dropdown a:last-child:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .search-bar input.form-control {
+        width: calc(100% - 40px);
+    }
+}

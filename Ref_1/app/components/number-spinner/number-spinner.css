@@ -1,0 +1,58 @@
+.quantity-number-spinner .btn {
+    width: 24px;
+    height: 36px;
+    color: var(--color-primary) !important;
+    font-size: 12px;
+}
+
+.quantity-number-spinner .btn svg {
+    width: 12px;
+    height: 12px;
+}
+
+.quantity-number-spinner .btn:hover,
+.quantity-number-spinner .btn:active {
+    background-color: transparent !important;
+    color: var(--color-primary) !important;
+}
+
+.quantity-number-spinner input {
+    width: 40px;
+    outline: none;
+    height: 36px;
+}
+
+.quantity-number-spinner {
+    border: 1px solid var(--color-primary);
+}
+
+.quantity-number-spinner.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+@media (max-width: 1399px) {
+    .quantity-number-spinner input {
+        height: 31px;
+        width: 30px;
+    }
+
+    .quantity-number-spinner .btn {
+        height: 31px;
+    }
+}
+
+@media (max-width: 991px) {
+    .quantity-number-spinner input {
+        font-size: 12px;
+    }
+
+    .quantity-number-spinner .btn {
+        font-size: 10px;
+    }
+
+    .quantity-number-spinner .btn svg {
+        width: 10px;
+        height: 10px;
+    }
+}

@@ -1,0 +1,15 @@
+.hdr-top {
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-primary);
+    z-index: 99999;
+}
+
+.hdr-top a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .h-t-left.justify-content-center {
+        justify-content: flex-start !important;
+    }
+}

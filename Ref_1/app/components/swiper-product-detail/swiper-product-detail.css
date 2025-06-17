@@ -1,0 +1,64 @@
+.swiper-product-detail .swiper-slide {
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: var(--color-light);
+    text-align: center;
+}
+
+.swiper-product-gallery img {
+    max-height: 500px;
+    object-fit: contain;
+    /* cursor: crosshair; */
+    height: auto;
+    width: auto;
+}
+
+.swiper-product-thumbnails .swiper-slide {
+    border: 1px solid var(--color-light);
+    cursor: pointer;
+}
+
+.swiper-product-thumbnails .swiper-slide:hover {
+    border-color: var(--color-dark);
+}
+
+.swiper-product-thumbnails img {
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    height: auto;
+}
+
+.swiper-product-thumbnails .swiper-button-prev,
+.swiper-product-thumbnails .swiper-button-next {
+    width: 40px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent);
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    margin: 0;
+    min-width: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.swiper-product-thumbnails .swiper-button-next {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.8), transparent);
+    left: auto;
+    right: 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.swiper-product-thumbnails .swiper-button-prev::after,
+.swiper-product-thumbnails .swiper-button-next::after {
+    font-size: 20px;
+}
+
+.swiper-product-detail .swiper-product-thumbnails {
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.swiper-product-gallery {
+    border-radius: 20px;
+}

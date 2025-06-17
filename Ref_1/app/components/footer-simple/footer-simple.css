@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+    footer .h6 {
+        font-size: 13px;
+    }
+
+    footer p {
+        font-size: 11px;
+    }
+
+    footer .small {
+        font-size: 10px !important;
+    }
+}

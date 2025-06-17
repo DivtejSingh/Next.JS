@@ -1,0 +1,25 @@
+.sec-heading {
+    color: var(--color-primary);
+}
+
+.sec-heading h3 {
+    font-size: 20px;
+}
+
+.sec-heading .link-main {
+    bottom: 15px;
+}
+
+.link-main svg {
+    width: 14px;
+}
+
+@media (max-width: 575px) {
+    .sec-heading .link-main {
+        font-size: 12px;
+    }
+
+    .sec-heading {
+        padding-right: 90px;
+    }
+}

@@ -1,0 +1,12 @@
+.banner-small {
+    height: 300px;
+}
+
+.banner-small h2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    letter-spacing: 1px;
+    max-width: 700px;
+}

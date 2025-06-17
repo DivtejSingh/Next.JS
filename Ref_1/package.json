@@ -1,0 +1,34 @@
+{
+  "name": "thebling",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "mongoose": "^8.12.1",
+    "mysql2": "^3.12.0",
+    "next": "15.1.3",
+    "next-sitemap": "^4.2.3",
+    "node-cache": "^5.1.2",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-spinners": "^0.15.0",
+    "react-star-ratings": "^2.3.0",
+    "swiper": "^11.1.15"
+  }
+}

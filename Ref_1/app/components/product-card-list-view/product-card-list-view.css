@@ -1,0 +1,40 @@
+.p-c-l-v-image {
+    width: 90px;
+}
+
+.p-c-l-v-text {
+    width: calc(100% - 90px);
+}
+
+.p-c-l-v-text-ftr .quantity-number-spinner input {
+    height: 28px;
+}
+
+.p-d-right .p-c-l-v-text-ftr .quantity-number-spinner .btn {
+    height: 28px;
+}
+
+.p-c-l-v-text h2:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 575px) {
+    .p-c-l-v-image {
+        width: 100px;
+    }
+
+    .p-c-l-v-text {
+        width: calc(100% - 100px);
+    }
+
+    .p-c-l-v-text a.text-truncate {
+        white-space: normal;
+        -webkit-box-orient: vertical;
+        display: -webkit-box!important;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+    }
+    .p-c-l-v-text h2 {
+        line-height: 1.1;
+    }
+}

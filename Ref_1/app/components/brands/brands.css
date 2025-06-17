@@ -1,0 +1,7 @@
+.swiper-brands {
+  margin: 0 -0.25rem;
+}
+
+.swiper-brands .swiper-wrapper {
+  transition-timing-function: linear;
+}

@@ -1,0 +1,44 @@
+.nav-mobile {
+    width: 300px !important;
+}
+
+.nav-mobile .offcanvas-header {
+    min-height: 62px;
+}
+
+.nav-mobile .offcanvas-header .btn-close {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.nav-mobile .accordion-button {
+    color: var(--color-text) !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav-mobile .accordion-button::after {
+    width: 24px;
+    height: 24px;
+    background-size: 16px;
+}
+
+.nav-mobile .accordion-button:hover,
+.nav-mobile .accordion-button:active {
+    color: var(--color-dark) !important;
+}
+
+.nav-mobile .accordion li + li {
+    margin-top: 5px;
+}
+
+.nav-mobile .accordion-item {
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .nav-mobile {
+        width: 90% !important;
+    }
+}
